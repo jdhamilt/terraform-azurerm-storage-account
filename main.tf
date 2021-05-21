@@ -6,8 +6,8 @@ terraform {
       version = "~> 2.56.0"
     }
     random = {
-      source = "hashicorp/random"
-      version = "~> 3.1.0"
+      source = "-/random"
+      version = "~> 2.2.0"
     }
     null = {
       source = "-/null"
